@@ -1,7 +1,7 @@
 var input=document.getElementById("input")
 var message=document.getElementById("message")
 
-function gokul(){
+function update(){
     var list=document.createElement("li") //<li></li>
     list.innerHTML=input.value+"<button onclick='remove(event)'>delete</button>"+" <button onclick='change(this)' id='edit_btn'>edit</button>"
     message.append(list)
