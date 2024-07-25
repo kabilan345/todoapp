@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="todo2.css">
+</head>
+<body>
+    <h1>Todo list</h1>
+    <input id="input">
+    <button onclick="gokul()">add</button>
+    <ul id="message">
+        <li>wakeup 
+            <button onclick="remove(event)">delete</button>
+            <button onclick="change(this)" id="edit_btn">edit</button>
+        </li>
+    </ul>
+
+    <div id="popup">
+        <input id="input2">
+        <button onclick="update2(event)">ok</button>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
